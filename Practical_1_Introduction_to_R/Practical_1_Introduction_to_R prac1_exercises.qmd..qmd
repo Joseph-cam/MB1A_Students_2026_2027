@@ -1,0 +1,137 @@
+---
+title: "Practical_1_Introduction_to_R/prac1_exercises.qmd."
+author: "Joseph Ogunbo"
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this 
+
+```{r}
+#| echo: false
+```
+```{r}
+round(3.14159, digits=2)
+```
+print(rep(5, 7))
+
+```{r}
+```
+print)
+round(3.14159)
+```{r}
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+library(tidyverse)
+library(gt)
+```
+
+
+`install.packages("tidyverse")
+``{r}
+
+
+install.packages("tidyverse")
+
+```
+```{r}
+library(tidyverse)
+library(gt)
+```{r}
+library(gt)
+```
+
+install.packages("gt")
+```
+```{r}
+library(tidyverse)
+library(gt)
+```
+```{r}
+my_variable <- CX1
+cheese <- C
+c <- TRUE
+d <- FALSE
+e <- 5415
+f <- 8123
+g <- 1432
+h <- 7543
+print(x)
+print(
+print(c)
+print(d)
+print(e)
+print(f)
+print(g)
+print(h)
+nice_food <- c("cheese", "beans", "potatoes")
+print(nice_food[1])
+print(nice_food[3])
+all_my_pets <- c("dog", "horse", "guinea pig", "chicken", "cat")
+my_only_bird <- all_my_pets[4]
+print(my_only_bird)
+library(gt)
+my_data_frame <- tibble(
+  fruit = c("apple", "pear", "banana"),
+  length = c(22, 30, 55),
+  weight = c(150, 165, 170)
+)
+print(my_data_frame)
+fruits <- c("apple", "pear", "banana")
+lengths <- c(22, 30, 55)
+weights <- c(150, 165, 170)
+my_data_frame <- tibble(
+  fruit = fruits,
+  length = lengths,
+  weight = weights
+)
+print(my_data_frame)
+my_data_frame <- tibble(
+  fruit = c("apple", "pear", "banana"),
+  length = c(22, 30, 55),
+  weight = c(150, 165, 170)
+)
+gt(my_data_frame)
+weather <- read_csv("data/weather_data.csv")
+gt(weather)
+gt(my_data_frame)
+weather <- read_csv("data/weather_data.csv")
+gt(weather)```{r}
+gt(my_data_frame)
+)
+
+weather <- read_csv("data/weather_data.csv")
+
+```
+rhinovirus <- read_csv("data/ukhsa-chart-download-rhinovirus.csv")
+library(tidyverse)
+library(gt)
+weather <- read_csv("ukhsa-chart-download.csv")
+rhinovirus <- read_csv("data/ukhsa-chart-download-rhinovirus.csv")
+
+weather <- read_csv("ukhsa-chart-download please work.csv")
+
+
+
+
+```
+
+
+
+
+
+
